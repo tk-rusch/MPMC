@@ -21,15 +21,19 @@ conda create --name mpmc python=3.7
 conda activate mpmc
 
 pip install torch==1.9.0
+pip install numpy
 
 pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
 pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
 pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
 pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
 pip install torch-geometric
-pip install numpy
 ```
-
+Alternatively, if one prefers conda, all pytorch geometric dependencies can be installed via
+```
+conda install pyg -c pyg
+```
+More details can be found on the pytorch geometric website: https://pytorch-geometric.readthedocs.io/en/latest/
 ### Run the experiments
 To train MPMC, simply run
 ```
