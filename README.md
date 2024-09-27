@@ -1,6 +1,6 @@
 # Message-Passing Monte Carlo
 This repository contains the implementation of the **MPMC** method 
-from the paper:
+from our PNAS paper:
 [Message-Passing Monte Carlo: Generating low-discrepancy point sets via Graph Neural Networks](https://arxiv.org/abs/2405.15059)
 
 <p align="center">
