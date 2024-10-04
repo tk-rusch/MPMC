@@ -87,10 +87,14 @@ and I will be happy to add it to this list.
 If you found our work useful in your research, please cite our paper at:
 ```bibtex
 @article{rusch2024message,
-  title={Message-Passing Monte Carlo: Generating low-discrepancy point sets via Graph Neural Networks},
+  title={Message-Passing Monte Carlo: Generating low-discrepancy point sets via graph neural networks},
   author={Rusch, T Konstantin and Kirk, Nathan and Bronstein, Michael M and Lemieux, Christiane and Rus, Daniela},
-  journal={arXiv preprint arXiv:2405.15059},
-  year={2024}
+  journal={Proceedings of the National Academy of Sciences},
+  volume={121},
+  number={40},
+  pages={e2409913121},
+  year={2024},
+  publisher={National Academy of Sciences}
 }
 ```
 (Also consider starring the project on GitHub.)
